@@ -136,3 +136,13 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Media Break  */
+
+@media (max-width: 768px) {
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
